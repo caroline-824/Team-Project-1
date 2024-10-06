@@ -1,0 +1,158 @@
+.space-grotesk-<uniquifier > {
+    font-family: "Space Grotesk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #4d4f48;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+    nav ul li {
+        display: inline-block;
+      text-align: center;
+        
+        
+    }
+    nav ul li a{
+          text-decoration: none;
+        color: white;
+        padding: 50px;
+        
+
+    }
+    .navbar{
+        text-align: center;
+    }
+    
+
+    .center {
+        text-align: center;
+
+        h2 {
+            display: inline;
+            text-decoration: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+                margin: 0 20px;
+            }
+
+        }
+
+
+    }
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+    display: flex;
+    height: inherit;
+    margin: auto;
+    font-size: initial;
+    width: 100%;
+    text-align: center;
+
+    img {
+        width: 550px;
+
+        max-height: 500px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 25% 25%;
+        border: 3px solid white;
+    }
+
+}
+
+
+
+.zero {
+    padding-bottom: 150px;
+
+    h1 {
+        color: #9aceeb;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+.second,
+.fourth,
+.sixth {
+    display: inline;
+    float: right;
+
+    grid-column: 2;
+
+
+}
+
+.first,
+.third,
+.fifth,
+.seventh {
+    display: inline;
+    float: left;
+    grid-column: 1;
+}
+
+
+
+.p {
+    grid-column: 2;
+    text-align: center;
+
+    p {
+        position: relative;
+        top: 33%;
+        font-size: 28px;
+        color: white;
+        line-height: 1.5;
+    }
+
+}
+
+.pleft {
+    grid-column: 1;
+    float: right;
+    text-align: center;
+
+    p {
+        position: relative;
+        top: 33%;
+        font-size: 28px;
+        color: #9aceeb;
+                line-height: 1.5;
+
+
+    }
+
+
+}
